@@ -3,14 +3,13 @@
 	box-sizing:border-box;
 }
 
+
 @font-face {
 	font-family: outfit_regular;
-	src: url(../fonts/Outfit/static/Outfit-Regular.ttf);
+	src: url(../fonts/Outfit/ Outfit-VariableFont_wght.ttf);
 }
-@font-face {
-	font-family: outfit_bold;
-	src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
-}
+
+
 :root {
 	--white:hsl(0, 0%, 100%);
 	--lightgray:hsl(212, 45%, 89%);
@@ -29,7 +28,6 @@ body {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	margin: 5rem auto;
 	width: 400px;
 	height: 300px;
 	background-color: var(--white);
