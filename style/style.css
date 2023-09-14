@@ -5,11 +5,11 @@
 
 @font-face {
 	font-family: outfit_regular;
-	src: url(/fonts/Outfit/static/Outfit-Regular.ttf);
+	src: url(../fonts/Outfit/static/Outfit-Regular.ttf);
 }
 @font-face {
 	font-family: outfit_bold;
-	src: url(/fonts/Outfit/static/Outfit-Bold.ttf);
+	src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
 }
 :root {
 	--white:hsl(0, 0%, 100%);
@@ -21,6 +21,9 @@
 body {
 	background-color: var(--lightgray);
 	font-family: outfit_regular;
+	display:grid;
+	place-items:center;
+	min-height:100vh;
 }
 .card {
 	position: relative;
